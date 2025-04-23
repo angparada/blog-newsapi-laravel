@@ -7,6 +7,10 @@ use Illuminate\Contracts\View\View;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Http;
 
+/**
+ * Nota importante para la api de newsapi.org: crear una variable en .env llamada NEWS_API_KEY=(clave api aqui)
+ * 
+ */
 class NewsController extends Controller
 {
     public function __construct(
